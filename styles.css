@@ -1,14 +1,88 @@
+/* INITIAL COLOR PALLETE */
+/*
+  lilac - #9F9CE2
+  Purple - #571C77
+  Dark Grey - #384053
+  Green - #0AE026
+  Light Grey - #80A1C1
+  Pink - #E73C7E;
+  Blue - #23A6D5;
+  */
+
+/* ELEMENTS */
 html {
   box-sizing: border-box;
+  /* background-color: black;
+  font-family: roboto, sans-serif; */
+  font-family: Open Sans, sans-serif;
 }
 
-.outer-wrapper {
-  width: 80%;
-  margin: 0 auto;
+body {
+  margin: 0;
 }
 
 h1 {
   font-size: 1.5rem;
+}
+
+section {
+  padding: 10px;
+}
+
+/* CLASSES */
+.sec-content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.exp-list, .pos-item {
+  list-style: none;
+  padding: 0;
+
+}
+
+
+.pos-title {
+  font-size: 1.5rem;
+}
+
+.contact-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.contact-item {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  /* background-color:blue; */
+  text-align: center;
+}
+
+/* COLORS */
+.bg-purple {
+  background-color: #571C77;
+}
+
+.pink-blue-grd {
+  background-image: linear-gradient(to bottom right, #E73C7E, #23A6D5)
+}
+
+.grn-prp-gradient {
+  background-image: linear-gradient(to bottom right, #0AE026, #9F9CE2, #571C77);
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-lt-grey {
+  background-color: #80A1C1;
+}
+
+.bg-green {
+  background-color: #0AE026;
 }
 
 
